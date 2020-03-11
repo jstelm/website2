@@ -1,0 +1,178 @@
+
+    *{  margin:0;
+        padding: 0;
+        font-family: 'Raleway', sans-serif;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color:  #bdc3c7;
+    }
+
+    .wrapper{
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color:  #e5e7e9;
+        
+    }
+
+   
+    #top {
+        position:fixed;
+        z-index:1;
+        left: 0;
+        right: 0px;
+        background-color:  #626567 ;
+        width: 100%
+}
+    
+    nav{    
+        padding: 0px 210px 5px 200px;
+                opacity: 0.85;
+
+}
+
+    nav a {
+        display:block;
+        float:left;
+        text-align:center;
+        font-size: 20px;
+        text-decoration: none;
+        transition: all 0.4s ease;
+
+}
+       nav a:hover{
+            background-color:  #e67e22;
+            text-decoration: none;
+            color: #eaeded;
+           cursor:pointer;
+            }
+
+ 
+
+ a.menu, #logo
+        {
+     
+        padding: 15px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #eaeded;
+
+    }
+
+
+    #logo{
+        background-color:  #e67e22 ;
+       
+    }
+
+
+
+    header img{
+        
+        padding-top:10px;
+        width: 100%;
+        display: block;
+    }
+
+
+    section { 
+        position:relative;
+     padding: 5% 5%;    
+        color:  #626567 ;
+        height:100vh;
+        width: 100%;
+
+}
+ 
+
+    article {
+       
+        display: flex;
+
+}
+
+
+    article p{ 
+        
+        text-align: justify;
+        padding: 10px 15px;
+}
+
+    p1{
+    padding: 5px 5px;
+        
+}
+    article i {
+        font-size: 64px;
+        padding: 0px 0px;
+        margin: 0;
+        
+}
+
+    article h2 {
+        text-align: center;
+        padding: 0px 25px 25px 0px;
+
+}
+    footer{ 
+        width:100%;
+        background-color:  #626567;
+        color: #eaeded;
+
+    }
+        .jumbotron1 {
+            
+        margin:0px;
+        padding: 10px;
+     background-color:  #626567;
+        color: #eaeded;
+}
+    
+    #arrow div{
+        position:fixed;
+      right: 0;
+        left: auto;
+        width: 64px;
+        height: 64px;
+        
+}
+    #arrow i {
+        font-size: 42px;
+        color: #e67e22;
+        
+        padding: 0 auto;
+        width: 100%;
+}
+    footer .row {
+        text-align: justify;
+}
+    #maps div {
+        position: absolute;
+        width: 500px;
+        height: 400px;
+    display:flex;
+        align-items: center;
+        justify-content: center;
+}
+
+
+
+/*/ Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+   nav a{ width:50%;
+    font-size: 16px;
+    }
+}
+/*
+/ Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+/ Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  }
+
+ /**Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
